@@ -1,6 +1,6 @@
 import requests
 
-class getData() :
+class getData():
     print('Get data init!')
     url = "https://anfavea.com.br/docs/SeriesTemporais_Autoveiculos.xlsm"  
     headers = {
