@@ -9,8 +9,8 @@ class dataConverter():
     print('Data converter init!')
 
     API_KEY = os.getenv("CLOUD_CONVERTER_API_KEY")
-    xlsm_path = "files/arquivo.xlsm"
-    csv_output = "files/arquivo_convertido.csv"
+    xlsm_path = "files/file.xlsm"
+    csv_output = "files/converted_file.csv"
 
     cloudconvert.configure(api_key=API_KEY, sandbox=False)
 

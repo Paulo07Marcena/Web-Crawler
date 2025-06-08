@@ -11,8 +11,8 @@ class getData():
     resposta = requests.get(url, headers=headers)
 
     if resposta.status_code == 200:
-        with open("files/arquivo.xlsm", "wb") as f:
+        with open("files/file.xlsm", "wb") as f:
             f.write(resposta.content)
         print("Download sucessful!")
     else:
-        print(f"Erro ao baixar: {resposta.status_code}")
+        print(f"Error when downloading: {resposta.status_code}")
