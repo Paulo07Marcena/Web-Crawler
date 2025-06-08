@@ -18,5 +18,3 @@ class processData():
     df_limpo.to_csv('files/processed_file.csv', index=False, encoding='utf-8-sig')
 
     print('Process finished! Saved processed_file.csv')
-
-
